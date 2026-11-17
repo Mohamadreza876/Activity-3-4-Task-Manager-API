@@ -1,0 +1,19 @@
+{
+  "name": "activity-3-4-task-manager-api",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Activities 3 and 4 - REST API design and Dockerized Task Manager backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "helmet": "^8.1.0",
+    "express-rate-limit": "^7.5.0"
+  }
+}
